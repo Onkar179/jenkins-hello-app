@@ -6,17 +6,17 @@ agent{
 }
 stages{
         
-        stage("git checkout"){
-            steps{
-                script{
-        git(
-            url: 'https://github.com/Onkar179/jenkins-gke-deploy.git',
-            credentialsId: 'git-token',
-            branch: 'main'
-            )
-                }
-            }
-        }
+//         stage("git checkout"){
+//             steps{
+//                 script{
+//         git(
+//             url: 'https://github.com/Onkar179/jenkins-hello-app.git',
+//             credentialsId: 'git-token',
+//             branch: 'main'
+//             )
+//                 }
+//             }
+//         }
         
         stage("Building Application Docker Image"){
             steps{
