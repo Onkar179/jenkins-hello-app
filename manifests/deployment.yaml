@@ -21,10 +21,3 @@ spec:
         image: asia-south1-docker.pkg.dev/searce-playground-v1/jenkins/hello-web-app:v1
         ports:
         - containerPort: 80
-#         resources:
-#           limits:
-#             memory: "2Gi"
-#             cpu: "500m"
-#           requests:
-#             memory: "500Mi"
-#             cpu: "250m"
