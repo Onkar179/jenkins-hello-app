@@ -5,8 +5,7 @@ agent{
     }
 }
 stages{
-        
-        stage("Building Application Docker Image"){
+         stage("Building Application Docker Image"){
             steps{
                 script{
                     sh 'gcloud auth configure-docker asia-south1-docker.pkg.dev'
